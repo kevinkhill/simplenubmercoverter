@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/R:/Projects/Java/Converter/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Basic Application Example</title>
+        <vendor>Sun Microsystems Inc.</vendor>
+        <homepage href="http://appframework.dev.java.net"/>
+        <description>A simple java desktop application based on Swing Application Framework</description>
+        <description kind="short">Basic Application Example</description>
+
+
+    <offline-allowed/>
+</information>
+
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="Converter.jar" main="true"/>
+
+
+    <jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+</resources>
+    <application-desc main-class="converter.ConverterApp">
+
+    </application-desc>
+</jnlp>
